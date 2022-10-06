@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <title>Key-Bay</title>
+    <!--material cdn-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+    <style type="text/css">
+      .box{
+      background: var(--color-white);
+      align-items: center;
+      gap: 1rem;
+      padding: 1.4rem var(--card-padding);
+      border-radius: var(--border-radius);
+      box-shadow: var(--box-shadow);
+      transition: all 300 ms ease;
+      margin-bottom: 0.7rem;
+      font-size: 15px;
+      border-radius: 20px;
+      height: 50px;
+      text-align: center;
+    
+      
+    }
+    
+      
+    </style>
+    
+    
+    <script></script>
+  </head>
+  <body>
+    <div class="container">
+      <aside>
+        <div class="top">
+          <div class="logo">
+            <img src="./logo.jpg" />
+            <!-- <h2>satsafeti</span></h2> -->
+          </div>
+          <div class="close" id="close-btn">
+            <span class="material-icons-sharp">close</span>
+          </div>
+        </div>
+
+        <div class="sidebar">
+          <a href="#">
+            <span class="material-icons-sharp">grid_view</span>
+            <h3>Dashboard</h3>
+          </a>
+          <a href="#" class="active">
+            <span class="material-icons-sharp">person_outline</span>
+            <h3>Customers</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp">receipt_long </span>
+            <h3>Orders</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp">report_gmailerrorred</span>
+            <h3>Reports</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp">settings</span>
+            <h3>Settings</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp">add</span>
+            <h3>Add Product</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp">logout</span>
+            <h3>Logout</h3>
+          </a>
+        </div>
+      </aside>
+      <!-- end of aside -->
+      <main>
+        <h1>Dashboard</h1>
+
+        <div class="date">
+          <input type="date" />
+        </div>
+        <div class="insights">
+          <!-- ending -->
+          <div class="vehicles">
+            <span class="material-icons-sharp">local_shipping</span>
+            <div class="middle">
+              <div class="left">
+                <h3>Total Vehicles</h3>
+                <h1>XYZ</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>80%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted">Last 24 hours</small>
+          </div>
+          <!-- ending part1 -->
+          <div class="shipments">
+            <span class="material-icons-sharp">local_shipping</span>
+            <div class="middle">
+              <div class="left">
+                <h3>Total Shipments</h3>
+                <h1>XYZ</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                
+                <div class="number">
+                  <p>75%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted">Last 24 hours</small>
+          </div>
+          <!-- ending part2 -->
+          <div class="machines">
+            <span class="material-icons-sharp">precision_manufacturing</span>
+            <div class="middle">
+              <div class="left">
+                <h3>Total machines</h3>
+                <h1>XYZ</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>90%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted">Last 24 hours</small>
+          </div>
+          <!-- end of insights -->
+          </div class="details">
+          <div class="details2">
+            <h2>Details Table</h2>
+            <table class="table">
+              <thead>
+                <tr class="thead">
+                  <th>Key Bay No.</th>
+                  <th>Type</th>
+                  <th>No. of Vehicles</th>
+                  <th>Duration</th>
+                  <th>#Problems</th>
+                  <th>People</th>
+                  <th>Machines</th>
+                  <th>Shipments</th>
+                  <th>Premises</th>
+                  <th>Vehicle condition</th>
+                  <th>fire</th>
+                  <th>Others</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Loading</td>
+                  <td>1</td>
+                  <td>10:30 12:00</td>
+                  <td>3</td>
+                  <td>15</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>ok</td>
+                  <td>small</td>
+                  <td>null</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Unloading</td>
+                  <td>2</td>
+                  <td>1 hour</td>
+                  <td>1</td>
+                  <td>30</td>
+                  <td>2</td>
+                  <td>55</td>
+                  <td>1</td>
+                  <td>not ok</td>
+                  <td class="big">big</td>
+                  <td>null</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Loading</td>
+                  
+                  <td>30</td>
+                  <td>3 hour</td>
+                  <td>1</td>
+                  <td>23</td>
+                  <td>3</td>
+                  <td>70</td>
+                  <td>1</td>
+                  <td>ok</td>
+                  <td>small</td>
+                  <td>null</td>
+                  
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Loading</td>
+                  <td>30</td>
+                  <td>3 hour</td>
+                  <td>1</td>
+                  <td>23</td>
+                  <td>3</td>
+                  <td>70</td>
+                  <td>1</td>
+                  <td>ok</td>
+                  <td class="big">big</td>
+                  <td>null</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Loading</td>
+                  <td>30</td>
+                  <td>3 hour</td>
+                  <td>1</td>
+                  <td>23</td>
+                  <td>3</td>
+                  <td>70</td>
+                  <td>1</td>
+                  <td>ok</td>
+                  <td>small</td>
+                  <td>null</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Loading</td>
+                  <td>30</td>
+                  <td>3 hour</td>
+                  <td>1</td>
+                  <td>23</td>
+                  <td>3</td>
+                  <td>70</td>
+                  <td>1</td>
+                  <td>ok</td>
+                  <td class="big">big</td>
+                  <td>null</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Loading</td>
+                  <td>30</td>
+                  <td>3 hour</td>
+                  <td>1</td>
+                  <td>23</td>
+                  <td>3</td>
+                  <td>70</td>
+                  <td>1</td>
+                  <td>ok</td>
+                  <td>small</td>
+                  <td>null</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>Loading</td>
+                  <td>30</td>
+                  <td>3 hour</td>
+                  <td>1</td>
+                  <td>23</td>
+                  <td>3</td>
+                  <td>70</td>
+                  <td>1</td>
+                  <td>ok</td>
+                  <td class="big">big</td>
+                  <td>null</td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>Loading</td>
+                  <td>30</td>
+                  <td>3 hour</td>
+                  <td>1</td>
+                  <td>23</td>
+                  <td>3</td>
+                  <td>70</td>
+                  <td>1</td>
+                  <td>ok</td>
+                  <td>small</td>
+                  <td>null</td>
+                </tr>
+                <tr>
+                  <td>8</td>
+                  <td>Loading</td>
+                  <td>30</td>
+                  <td>3 hour</td>
+                  <td>1</td>
+                  <td>23</td>
+                  <td>3</td>
+                  <td>70</td>
+                  <td>1</td>
+                  <td>ok</td>
+                  <td>small</td>
+                  <td>null</td>
+                </tr>
+                <tr>
+                  <td>9</td>
+                  <td>Loading</td>
+                  <td>30</td>
+                  <td>3 hour</td>
+                  <td>1</td>
+                  <td>23</td>
+                  <td>3</td>
+                  <td>70</td>
+                  <td>1</td>
+                  <td>ok</td>
+                  <td>small</td>
+                  <td>null</td>
+                </tr>
+              </tbody>
+            </table>
+            <a href="#">Show All</a>
+          </div>     
+      </main>
+      <!-- just end -->
+      <div class="right">
+        <div class="top">
+          <button id="menu-btn">
+            <span class="material-icons-sharp">menu</span>
+          </button>
+          <div class="theme-toggler">
+            <span class="material-icons-sharp active">light_mode</span>
+            <span class="material-icons-sharp">dark_mode</span>
+          </div>
+          <div class="profile">
+            <div class="info">
+              <p><b>Admin</b></p>
+              <small class="text-muted"></small>
+            </div>
+            <div class="profile-photo">
+              <img src="./1.jpg" >
+            </div>
+          </div>
+        </div>
+        <!-- end of top -->
+        <div class="recent-updates">
+          <h2>Graph</h2>
+          <div class="updates">
+            <div class="update">
+                <div class="profile-photo">
+                </div> 
+                <div class="chartBox">
+                  <canvas id="myChart"></canvas>
+                  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+                  <script>
+                 const ctx = document.getElementById('myChart').getContext('2d');
+                  const myChart = new Chart(ctx, {
+                      type: 'line',
+                      data: {
+                          labels: ['1','2','3','4','5'],
+                          datasets: [{
+                              label: 'No. of Detection',
+                              data: [15,20,5,3,10,9],
+                              backgroundColor: [
+                                  'rgba(255, 99, 132, 0.2)',
+                                  'rgba(54, 162, 235, 0.2)',
+                                  'rgba(255, 206, 86, 0.2)',
+                                  'rgba(75, 192, 192, 0.2)',
+                                  'rgba(153, 102, 255, 0.2)',
+                                  'rgba(255, 159, 64, 0.2)'
+                              ],
+                              borderColor: [
+                                  'rgba(255, 99, 132, 1)',
+                                  'rgba(54, 162, 235, 1)',
+                                  'rgba(255, 206, 86, 1)',
+                                  'rgba(75, 192, 192, 1)',
+                                  'rgba(153, 102, 255, 1)',
+                                  'rgba(255, 159, 64, 1)'
+                              ],
+                              borderWidth: 2
+                          }]
+                      },
+                      options: {
+                          tension:0.4,
+                          scales: {
+                              y: {
+                                  beginAtZero: true
+                              }
+                          }
+                      }
+                  });
+                  </script>
+                                  
+                </div>        
+              </div>  
+              <div class="update">
+                <div class="profile-photo">
+                </div> 
+                <div class="message">
+                 
+                </div>        
+              </div>  
+              <div class="update">
+                <div class="profile-photo">
+                </div> 
+                <div class="message">
+                  
+                </div>        
+              </div>  
+            </div>
+          </div>
+          <!-- ============analytics performance -->
+          <div class="analytics">
+            <h2>Analytics Performance</h2>
+            <div class="right">
+              <h3 class="box">Shipment Count</h3>
+              <h3 class="box"> 2 Vehicle on single bay</h3>
+              <h3 class="box">Smoke and Fire Detection</h3>
+              <h3 class="box">Throwing of Shipments</h3>
+              <h3 class="box">Opening of Shipments</h3>
+              <h3 class="box">Damage Shipments </h3>
+              <h3 class="box">Improper Stacking</h3>
+              <h3 class="box">Stacking without pallet</h3>
+              <h3 class="box">Progressive Loading and Unloading</h3>
+              <h3 class="box">Volumetric Weight of Shipments</h3>
+              <h3 class="box">Vehicle Number Capture</h3>
+            </div>
+          </div>
+          
+        </div>  
+        </div> 
+      </div>
+    </div>
+    
+    <script src="./index.js"></script> 
+  </body>
+</html> 
